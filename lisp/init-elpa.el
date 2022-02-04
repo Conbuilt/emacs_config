@@ -1,13 +1,18 @@
+
 (require 'package)
+
 (defun require-package (package)
-  "Instal given PACKAGE if it was not installed before."
+  "Install given PACKAGE if it was not installed before."
   (if (package-installed-p package)
       t
     (progn
       (unless (assoc package package-archive-contents)
-	（package-refresh-contents))
+	(package-refresh-contents))
       (package-install package))))
+
 (add-to-list 'package-archives
-	       '("melpa" . "https://melpa.org/packages/"))
+	     '("melpa-cn" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/stable-melpa/"))
+
 (package-initialize)
+
 (provide 'init-elpa)

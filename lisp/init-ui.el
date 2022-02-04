@@ -21,11 +21,11 @@
  apropos-do-all t
  mouse-yank-at-point t)
 
-(load-theme 'atom-one-dark t)
+(load-theme 'leuven t)
 
 (blink-cursor-mode 0)
 (setq-default cursor-type 'bar)
-(set-cursor-color "#cccccc")
+(set-cursor-color "#ffffff")
 (setq ring-bell-function 'ignore)
 
 (golden-ratio-mode 1)
