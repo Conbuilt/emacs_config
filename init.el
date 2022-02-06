@@ -19,10 +19,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(flycheck-rust racer smex rainbow-delimiters projectile golden-ratio flycheck company atom-one-dark-theme)))
+   '(ido-completing-read+ flycheck-rust racer smex rainbow-delimiters projectile golden-ratio flycheck company atom-one-dark-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(hl-line ((t (:extend t :background "dark cyan")))))
+ '(hl-line ((t (:extend t :background "brightblue")))))
